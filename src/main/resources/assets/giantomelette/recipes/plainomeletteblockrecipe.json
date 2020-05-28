@@ -1,0 +1,13 @@
+{
+  "group": "giantomelette",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "giantomelette:plainomelette"
+    }
+  ],
+  "result": {
+    "item": "giantomelette:plainomeletteblock",
+    "count": 1
+  }
+}

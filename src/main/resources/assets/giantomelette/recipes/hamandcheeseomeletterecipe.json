@@ -1,0 +1,22 @@
+{
+  "group": "giantomelette",
+  "type": "forge:ore_shapeless",
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "listAllegg"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "listAllporkraw"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodCheese"
+    }
+  ],
+  "result": {
+    "item": "giantomelette:hamandcheeseomelette",
+    "count": 1
+  }
+}

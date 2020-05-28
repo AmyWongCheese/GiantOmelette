@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "omplain2_texture"
+      },
+      "name": "default"
+    }
+  }
+}

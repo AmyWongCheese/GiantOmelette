@@ -1,0 +1,8 @@
+{
+  "parent": "giantomelette:custom/omplain2",
+  "textures": {
+    "all": "giantomelette:blocks/omplain2",
+    "particle": "giantomelette:blocks/omplain2",
+    "0": "giantomelette:blocks/omplain2_texture"
+  }
+}

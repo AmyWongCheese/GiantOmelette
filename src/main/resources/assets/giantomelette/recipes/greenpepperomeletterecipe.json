@@ -1,0 +1,18 @@
+{
+  "group": "giantomelette",
+  "type": "forge:ore_shapeless",
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "listAllegg"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "cropBellpepper"
+    }
+  ],
+  "result": {
+    "item": "giantomelette:greenpepperomelette",
+    "count": 1
+  }
+}

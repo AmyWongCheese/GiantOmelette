@@ -1,0 +1,17 @@
+{
+  "group": "giantomelette",
+  "type": "forge:ore_shapeless",
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "listAllegg"
+    },
+    {
+      "item": "giantomelette:honeyblossom"
+    }
+  ],
+  "result": {
+    "item": "giantomelette:honeyblossomomelette",
+    "count": 1
+  }
+}

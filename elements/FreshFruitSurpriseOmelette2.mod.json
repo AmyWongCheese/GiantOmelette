@@ -1,0 +1,24 @@
+{
+  "_fv": 6,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "omfruit2",
+    "customModelName": "Normal",
+    "name": "2/3 Fresh Fruit Surprise Omelette",
+    "creativeTab": {
+      "value": "CUSTOM:GiantOmelette"
+    },
+    "stackSize": 64,
+    "nutritionalValue": 4,
+    "saturation": 0.3,
+    "eatingSpeed": 32,
+    "forDogs": false,
+    "isAlwaysEdible": false,
+    "animation": "eat",
+    "hasGlow": false,
+    "onEaten": {
+      "name": "FreshFruitSurpriseOmelette2FoodEaten"
+    }
+  }
+}

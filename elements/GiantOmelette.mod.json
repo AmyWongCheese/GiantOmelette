@@ -1,0 +1,11 @@
+{
+  "_fv": 6,
+  "_type": "tab",
+  "definition": {
+    "name": "Giant Omelette",
+    "icon": {
+      "value": "CUSTOM:CarrotAndPeaOmelette"
+    },
+    "showSearch": true
+  }
+}

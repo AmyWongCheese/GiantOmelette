@@ -1,0 +1,3066 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "PlainOmelette",
+      "type": "food",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "BaconAndBroccoliOmelette",
+      "type": "food",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "CarrotAndPeaOmelette",
+      "type": "food",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "GiantOmelette",
+      "type": "tab",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "PlainOmelette2",
+      "type": "food",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "PlainOmelette3",
+      "type": "food",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "PlainOmeletteFoodEaten",
+      "type": "procedure",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PlainOmelette2FoodEaten",
+      "type": "procedure",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PlainOmelette3BlockOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 120,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BBQSauceOmelette",
+      "type": "food",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "BaconOmelette",
+      "type": "food",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "BaconOmeletteRecipe",
+      "type": "recipe",
+      "sortid": 121,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {}
+    },
+    {
+      "name": "PlainOmeletteRecipe",
+      "type": "recipe",
+      "sortid": 122,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {}
+    },
+    {
+      "name": "BBQSauceOmeletteRecipe",
+      "type": "recipe",
+      "sortid": 123,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {}
+    },
+    {
+      "name": "CarrotAndPeaOmeletteRecipe",
+      "type": "recipe",
+      "sortid": 124,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {}
+    },
+    {
+      "name": "BaconAndBroccoliOmeletteRecipe",
+      "type": "recipe",
+      "sortid": 125,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {}
+    },
+    {
+      "name": "BlackCurrantOmelette",
+      "type": "food",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "BlackCurrantOmeletteRecipe",
+      "type": "recipe",
+      "sortid": 126,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {}
+    },
+    {
+      "name": "CheeseOmelette",
+      "type": "food",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "CheeseOmeletteRecipe",
+      "type": "recipe",
+      "sortid": 127,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {}
+    },
+    {
+      "name": "RottenOmelette",
+      "type": "food",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RottenOmeletteRecipe",
+      "type": "recipe",
+      "sortid": 128,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {}
+    },
+    {
+      "name": "RottenOmeletteFoodEaten",
+      "type": "procedure",
+      "sortid": 129,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CheeseOmelette2",
+      "type": "food",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "CheeseOmelette3",
+      "type": "food",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "CheeseOmeletteFoodEaten",
+      "type": "procedure",
+      "sortid": 130,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CheeseOmelette2FoodEaten",
+      "type": "procedure",
+      "sortid": 131,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BaconAndBroccoliOmelette2",
+      "type": "food",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "BaconAndBroccoliOmelette3",
+      "type": "food",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "BaconAndBroccoliOmeletteFoodEaten",
+      "type": "procedure",
+      "sortid": 132,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BaconAndBroccoliOmelette2FoodEaten",
+      "type": "procedure",
+      "sortid": 133,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BBQSauceOmelette2",
+      "type": "food",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "BBQSauceOmelette3",
+      "type": "food",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "BBQSauceOmeletteFoodEaten",
+      "type": "procedure",
+      "sortid": 134,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BBQSauceOmelette2FoodEaten",
+      "type": "procedure",
+      "sortid": 135,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BaconOmelette2",
+      "type": "food",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "BaconOmelette3",
+      "type": "food",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "BaconOmeletteFoodEaten",
+      "type": "procedure",
+      "sortid": 136,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BaconOmelette2FoodEaten",
+      "type": "procedure",
+      "sortid": 137,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BlackCurrantOmelette2",
+      "type": "food",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "BlackCurrantOmelette3",
+      "type": "food",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "BlackCurrantOmeletteFoodEaten",
+      "type": "procedure",
+      "sortid": 138,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BlackCurrantOmelette2FoodEaten",
+      "type": "procedure",
+      "sortid": 139,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CarrotAndPeaOmelette2",
+      "type": "food",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "CarrotAndPeaOmelette3",
+      "type": "food",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "CarrotAndPeaOmeletteFoodEaten",
+      "type": "procedure",
+      "sortid": 140,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CarrotAndPeaOmelette2FoodEaten",
+      "type": "procedure",
+      "sortid": 141,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CheeseAndOnionOmelette",
+      "type": "food",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "CheeseAndOnionOmelette2",
+      "type": "food",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "CheeseAndOnionOmelette3",
+      "type": "food",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "CheeseAndOnionOmeletteFoodEaten",
+      "type": "procedure",
+      "sortid": 142,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CheeseAndOnionOmelette2FoodEaten",
+      "type": "procedure",
+      "sortid": 143,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CheeseAndOnionOmeletteRecipe",
+      "type": "recipe",
+      "sortid": 144,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {}
+    },
+    {
+      "name": "ChocolateOmelette",
+      "type": "food",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ChocolateOmelette2",
+      "type": "food",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ChocolateOmelette3",
+      "type": "food",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ChocolateOmeletteFoodEaten",
+      "type": "procedure",
+      "sortid": 145,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ChocolateOmelette2FoodEaten",
+      "type": "procedure",
+      "sortid": 146,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ChocolateOmeletteRecipe",
+      "type": "recipe",
+      "sortid": 147,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {}
+    },
+    {
+      "name": "ChokatoOmelette",
+      "type": "food",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ChokatoOmelette2",
+      "type": "food",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ChokatoOmelette3",
+      "type": "food",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Chokato",
+      "type": "food",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {}
+    },
+    {
+      "name": "ChokatoOmeletteFoodEaten",
+      "type": "procedure",
+      "sortid": 148,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ChokatoOmelette2FoodEaten",
+      "type": "procedure",
+      "sortid": 149,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ChokatoOmeletteRecipe",
+      "type": "recipe",
+      "sortid": 150,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {}
+    },
+    {
+      "name": "ClayOmelette",
+      "type": "food",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ClayOmelette2",
+      "type": "food",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ClayOmelette3",
+      "type": "food",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ClayOmeletteFoodEaten",
+      "type": "procedure",
+      "sortid": 151,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ClayOmelette2FoodEaten",
+      "type": "procedure",
+      "sortid": 152,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ClayOmeletteRecipe",
+      "type": "recipe",
+      "sortid": 153,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {}
+    },
+    {
+      "name": "FreshFruitSurpriseOmelette",
+      "type": "food",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "FreshFruitSurpriseOmelette2",
+      "type": "food",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "FreshFruitSurpriseOmelette3",
+      "type": "food",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "FreshFruitSurpriseOmeletteFoodEaten",
+      "type": "procedure",
+      "sortid": 154,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FreshFruitSurpriseOmelette2FoodEaten",
+      "type": "procedure",
+      "sortid": 155,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FreshFruitSurpriseOmeletteRecipe",
+      "type": "recipe",
+      "sortid": 156,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {}
+    },
+    {
+      "name": "GreenPepperOmelette",
+      "type": "food",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "GreenPepperOmelette2",
+      "type": "food",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "GreenPepperOmelette3",
+      "type": "food",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "GreenPepperOmeletteFoodEaten",
+      "type": "procedure",
+      "sortid": 157,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GreenPepperOmelette2FoodEaten",
+      "type": "procedure",
+      "sortid": 158,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GreenPepperOmeletteRecipe",
+      "type": "recipe",
+      "sortid": 159,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {}
+    },
+    {
+      "name": "HamAndCheeseOmelette",
+      "type": "food",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "HamAndCheeseOmelette2",
+      "type": "food",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "HamAndCheeseOmelette3",
+      "type": "food",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "HamAndCheeseOmeletteFoodEaten",
+      "type": "procedure",
+      "sortid": 160,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HamAndCheeseOmelette2FoodEaten",
+      "type": "procedure",
+      "sortid": 161,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HamAndCheeseOmeletteRecipe",
+      "type": "recipe",
+      "sortid": 162,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {}
+    },
+    {
+      "name": "HoneyBlossomOmelette",
+      "type": "food",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "HoneyBlossomOmelette2",
+      "type": "food",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "HoneyBlossomOmelette3",
+      "type": "food",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "HoneyBlossomOmeletteFoodEaten",
+      "type": "procedure",
+      "sortid": 163,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HoneyBlossomOmelette2FoodEaten",
+      "type": "procedure",
+      "sortid": 164,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HoneyBlossom",
+      "type": "food",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "HoneyBlossomOmeletteRecipe",
+      "type": "recipe",
+      "sortid": 165,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {}
+    },
+    {
+      "name": "HotTyrannianPepperOmelette",
+      "type": "food",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "HotTyrannianPepperOmelette2",
+      "type": "food",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "HotTyrannianPepperOmelette3",
+      "type": "food",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "HotTyrannianPepperOmeletteFoodEaten",
+      "type": "procedure",
+      "sortid": 166,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HotTyrannianPepperOmelette2FoodEaten",
+      "type": "procedure",
+      "sortid": 167,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HotTyrannianPepper",
+      "type": "food",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {}
+    },
+    {
+      "name": "HotTyrannianPepperFoodEaten",
+      "type": "procedure",
+      "sortid": 168,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HotTyrannianPepperOmeletteRecipe",
+      "type": "recipe",
+      "sortid": 169,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {}
+    },
+    {
+      "name": "HotTyrannianPepperOmelette3FoodEaten",
+      "type": "procedure",
+      "sortid": 170,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "JuppieOmelette",
+      "type": "food",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "JuppieOmelette2",
+      "type": "food",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "JuppieOmelette3",
+      "type": "food",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "JuppieOmeletteFoodEaten",
+      "type": "procedure",
+      "sortid": 171,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "JuppieOmelette2FoodEaten",
+      "type": "procedure",
+      "sortid": 172,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TealJuppie",
+      "type": "food",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {}
+    },
+    {
+      "name": "JuppieOmeletteRecipe",
+      "type": "recipe",
+      "sortid": 173,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {}
+    },
+    {
+      "name": "LittleFishyOmelette",
+      "type": "food",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "LittleFishyOmelette2",
+      "type": "food",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "LittleFishyOmelette3",
+      "type": "food",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "LittleFishyOmeletteFoodEaten",
+      "type": "procedure",
+      "sortid": 174,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LittleFishyOmelette2FoodEaten",
+      "type": "procedure",
+      "sortid": 175,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LittleFishyOmeletteRecipe",
+      "type": "recipe",
+      "sortid": 176,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {}
+    },
+    {
+      "name": "MarshmallowOmelette",
+      "type": "food",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "MarshmallowOmelette2",
+      "type": "food",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "MarshmallowOmelette3",
+      "type": "food",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "MarshmallowOmeletteFoodEaten",
+      "type": "procedure",
+      "sortid": 177,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MarshmallowOmelette2FoodEaten",
+      "type": "procedure",
+      "sortid": 178,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MarshmallowOmeletteRecipe",
+      "type": "recipe",
+      "sortid": 179,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {}
+    },
+    {
+      "name": "MeatFeastOmelette",
+      "type": "food",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "MeatFeastOmelette2",
+      "type": "food",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "MeatFeastOmelette3",
+      "type": "food",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "MeatFeastOmeletteFoodEaten",
+      "type": "procedure",
+      "sortid": 180,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MeatFeastOmelette2FoodEaten",
+      "type": "procedure",
+      "sortid": 181,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MeatFeastOmeletteRecipe",
+      "type": "recipe",
+      "sortid": 182,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {}
+    },
+    {
+      "name": "MushroomOmelette",
+      "type": "food",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "MushroomOmelette2",
+      "type": "food",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "MushroomOmelette3",
+      "type": "food",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "MushroomOmeletteFoodEaten",
+      "type": "procedure",
+      "sortid": 183,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MushroomOmelette2FoodEaten",
+      "type": "procedure",
+      "sortid": 184,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MushroomOmeletteRecipe",
+      "type": "recipe",
+      "sortid": 185,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {}
+    },
+    {
+      "name": "PizzaOmelette",
+      "type": "food",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "PizzaOmelette2",
+      "type": "food",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "PizzaOmelette3",
+      "type": "food",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "PizzaOmeletteFoodEaten",
+      "type": "procedure",
+      "sortid": 186,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PizzaOmelette2FoodEaten",
+      "type": "procedure",
+      "sortid": 187,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PizzaOmeletteRecipe",
+      "type": "recipe",
+      "sortid": 188,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {}
+    },
+    {
+      "name": "RiceOmelette",
+      "type": "food",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RiceOmelette2",
+      "type": "food",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RiceOmelette3",
+      "type": "food",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RiceOmeletteFoodEaten",
+      "type": "procedure",
+      "sortid": 189,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RiceOmelette2FoodEaten",
+      "type": "procedure",
+      "sortid": 190,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RiceOmeletteRecipe",
+      "type": "recipe",
+      "sortid": 191,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {}
+    },
+    {
+      "name": "SausageOmelette",
+      "type": "food",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "SausageOmelette2",
+      "type": "food",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "SausageOmelette3",
+      "type": "food",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "SausageOmeletteFoodEaten",
+      "type": "procedure",
+      "sortid": 192,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SausageOmelette2FoodEaten",
+      "type": "procedure",
+      "sortid": 193,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SausageOmeletteRecipe",
+      "type": "recipe",
+      "sortid": 194,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {}
+    },
+    {
+      "name": "SausageAndPepperoniOmelette",
+      "type": "food",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "SausageAndPepperoniOmelette2",
+      "type": "food",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "SausageAndPepperoniOmelette3",
+      "type": "food",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "SausageAndPepperoniOmeletteFoodEaten",
+      "type": "procedure",
+      "sortid": 195,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SausageAndPepperoniOmelette2FoodEaten",
+      "type": "procedure",
+      "sortid": 196,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SausageAndPepperoniOmeletteRecipe",
+      "type": "recipe",
+      "sortid": 197,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {}
+    },
+    {
+      "name": "SpicyRedPepperOmelette",
+      "type": "food",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "SpicyRedPepperOmelette2",
+      "type": "food",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "SpicyRedPepperOmelette3",
+      "type": "food",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "SpicyRedPepperOmeletteFoodEaten",
+      "type": "procedure",
+      "sortid": 198,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SpicyRedPepperOmelette2FoodEaten",
+      "type": "procedure",
+      "sortid": 199,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SpicyRedPepperOmelette3FoodEaten",
+      "type": "procedure",
+      "sortid": 200,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SpicyRedPepperOmeletteRecipe",
+      "type": "recipe",
+      "sortid": 201,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {}
+    },
+    {
+      "name": "SpinachFetaOmelette",
+      "type": "food",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "SpinachFetaOmelette2",
+      "type": "food",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "SpinachFetaOmelette3",
+      "type": "food",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "SpinachFetaOmeletteFoodEaten",
+      "type": "procedure",
+      "sortid": 202,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SpinachFetaOmelette2FoodEaten",
+      "type": "procedure",
+      "sortid": 203,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SpinachFetaOmeletteRecipe",
+      "type": "recipe",
+      "sortid": 204,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {}
+    },
+    {
+      "name": "StrawberryOmelette",
+      "type": "food",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "StrawberryOmelette2",
+      "type": "food",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "StrawberryOmelette3",
+      "type": "food",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "StrawberryOmeletteFoodEaten",
+      "type": "procedure",
+      "sortid": 205,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "StrawberryOmelette2FoodEaten",
+      "type": "procedure",
+      "sortid": 206,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "StrawberryOmeletteRecipe",
+      "type": "recipe",
+      "sortid": 207,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {}
+    },
+    {
+      "name": "TangyTigersquashOmelette",
+      "type": "food",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "TangyTigersquashOmelette2",
+      "type": "food",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "TangyTigersquashOmelette3",
+      "type": "food",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "TangyTigersquashOmeletteFoodEaten",
+      "type": "procedure",
+      "sortid": 208,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TangyTigersquashOmelette2FoodEaten",
+      "type": "procedure",
+      "sortid": 209,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TangyTigersquashOmelette3FoodEaten",
+      "type": "procedure",
+      "sortid": 210,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Tigersquash",
+      "type": "food",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {}
+    },
+    {
+      "name": "TangyTigersquashOmeletteRecipe",
+      "type": "recipe",
+      "sortid": 211,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {}
+    },
+    {
+      "name": "TomatoOmelette",
+      "type": "food",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "TomatoOmelette2",
+      "type": "food",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "TomatoOmelette3",
+      "type": "food",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "TomatoOmeletteFoodEaten",
+      "type": "procedure",
+      "sortid": 212,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TomatoOmelette2FoodEaten",
+      "type": "procedure",
+      "sortid": 213,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TomatoOmeletteRecipe",
+      "type": "recipe",
+      "sortid": 214,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {}
+    },
+    {
+      "name": "TomatoAndPepperOmelette",
+      "type": "food",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "TomatoAndPepperOmelette2",
+      "type": "food",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "TomatoAndPepperOmelette3",
+      "type": "food",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "TomatoAndPepperOmeletteFoodEaten",
+      "type": "procedure",
+      "sortid": 215,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TomatoAndPepperOmelette2FoodEaten",
+      "type": "procedure",
+      "sortid": 216,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TomatoAndPepperOmeletteRecipe",
+      "type": "recipe",
+      "sortid": 217,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {}
+    },
+    {
+      "name": "TwirlyFruitOmelette",
+      "type": "food",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "TwirlyFruitOmelette2",
+      "type": "food",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "TwirlyFruitOmelette3",
+      "type": "food",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "TwirlyFruitOmeletteFoodEaten",
+      "type": "procedure",
+      "sortid": 218,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TwirlyFruitOmelette2FoodEaten",
+      "type": "procedure",
+      "sortid": 219,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TwirlyFruitOmeletteRecipe",
+      "type": "recipe",
+      "sortid": 220,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {}
+    },
+    {
+      "name": "TwirlyFruit",
+      "type": "food",
+      "sortid": 109,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {}
+    },
+    {
+      "name": "UggaMelonOmelette",
+      "type": "food",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "UggaMelonOmelette2",
+      "type": "food",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "UggaMelonOmelette3",
+      "type": "food",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "UggaMelonOmeletteFoodEaten",
+      "type": "procedure",
+      "sortid": 221,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "UggaMelonOmelette2FoodEaten",
+      "type": "procedure",
+      "sortid": 222,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "UggaMelon",
+      "type": "food",
+      "sortid": 110,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {}
+    },
+    {
+      "name": "UggaMelonFoodEaten",
+      "type": "procedure",
+      "sortid": 223,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "UggaMelonOmelette3FoodEaten",
+      "type": "procedure",
+      "sortid": 224,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "UggaMelonOmeletteRecipe",
+      "type": "recipe",
+      "sortid": 225,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {}
+    },
+    {
+      "name": "VeggieDelightOmelette",
+      "type": "food",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "VeggieDelightOmelette2",
+      "type": "food",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "VeggieDelightOmelette3",
+      "type": "food",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "VeggieDelightOmeletteFoodEaten",
+      "type": "procedure",
+      "sortid": 226,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "VeggieDelightOmelette2FoodEaten",
+      "type": "procedure",
+      "sortid": 227,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "VeggieDelightOmeletteRecipe",
+      "type": "recipe",
+      "sortid": 228,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {}
+    },
+    {
+      "name": "PlainOmeletteBlock",
+      "type": "block",
+      "sortid": 229,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "PlainOmeletteBlockRecipe",
+      "type": "recipe",
+      "sortid": 230,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "PlainOmelette2Block",
+      "type": "block",
+      "sortid": 231,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "PlainOmelette3Block",
+      "type": "block",
+      "sortid": 232,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "PlainOmeletteBlockOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 233,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PlainOmelette2BlockOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 234,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GetChokato",
+      "type": "procedure",
+      "sortid": 235,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GetHoneyBlossom",
+      "type": "procedure",
+      "sortid": 236,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GetHotTyrannianPepper",
+      "type": "procedure",
+      "sortid": 237,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GetTealJuppie",
+      "type": "procedure",
+      "sortid": 238,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GetTigersquash",
+      "type": "procedure",
+      "sortid": 239,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GetTwirlyFruit",
+      "type": "procedure",
+      "sortid": 240,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GetUggaMelon",
+      "type": "procedure",
+      "sortid": 241,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "zh_tw": {
+      "item.cheeseomelette3.name": "1/3 °_¥q·Î³J¨÷",
+      "item.honeyblossomomelette.name": "¸Á»eªá·Î³J¨÷",
+      "item.clayomelette2.name": "2/3 ÂH¤g·Î³J¨÷",
+      "item.uggamelonomelette2.name": "2/3 ªü¾¿¥Ê·Î³J¨÷",
+      "item.clayomelette.name": "ÂH¤g·Î³J¨÷",
+      "item.meatfeastomelette.name": "Âø¦×·Î³J¨÷",
+      "item.baconomelette2.name": "2/3 âÀ¦×·Î³J¨÷",
+      "item.honeyblossomomelette2.name": "2/3 ¸Á»eªá·Î³J¨÷",
+      "item.chocolateomelette.name": "¥©§J¤O·Î³J¨÷",
+      "item.tealjuppie.name": "¤ôÀn¥yªJªG",
+      "item.riceomelette.name": "¦Ì·Î³J¨÷",
+      "tile.plainomeletteblock.name": "Plain Omelette Block",
+      "item.tomatoandpepperomelette2.name": "2/3 ¿»­X­J´Ô·Î³J¨÷",
+      "item.spinachfetaomelette.name": "µÔµæ°_¥q·Î³J¨÷",
+      "item.chocolateomelette2.name": "2/3 ¥©§J¤O·Î³J¨÷",
+      "item.clayomelette3.name": "1/3 ÂH¤g·Î³J¨÷",
+      "item.cheeseomelette2.name": "2/3 °_¥q·Î³J¨÷",
+      "item.greenpepperomelette.name": "«C´Ô·Î³J¨÷",
+      "item.riceomelette2.name": "2/3 ¦Ì·Î³J¨÷",
+      "item.juppieomelette.name": "¥yªJªG·Î³J¨÷",
+      "item.honeyblossomomelette3.name": "1/3 ¸Á»eªá·Î³J¨÷",
+      "item.littlefishyomelette.name": "¤p³½¨à·Î³J¨÷",
+      "item.tomatoomelette.name": "¿»­X·Î³J¨÷",
+      "item.freshfruitsurpriseomelette.name": "·sÂA¤ôªGÅå³ß·Î³J¨÷",
+      "item.twirlyfruitomelette3.name": "1/3 ±ÛÂàªG·Î³J¨÷",
+      "item.juppieomelette3.name": "1/3 ¥yªJªG·Î³J¨÷",
+      "item.hottyrannianpepperomelette3.name": "1/3 ¤õ»¶¼É­h¤j¦a­J´Ô·Î³J¨÷",
+      "item.twirlyfruitomelette.name": "±ÛÂàªG·Î³J¨÷",
+      "item.strawberryomelette.name": "¯ó²ù·Î³J¨÷",
+      "item.spicyredpepperomelette.name": "¨¯»¶¬õ­J´Ô·Î³J¨÷",
+      "item.meatfeastomelette3.name": "1/3 Âø¦×·Î³J¨÷",
+      "item.sausageomelette3.name": "1/3 ­»¸z·Î³J¨÷",
+      "item.baconomelette3.name": "1/3 âÀ¦×·Î³J¨÷",
+      "item.mushroomomelette.name": "Ä¨Û£·Î³J¨÷",
+      "item.uggamelon.name": "ªü¾¿¥Ê",
+      "item.sausageandpepperoniomelette2.name": "2/3 ­»¸z¤õ»L¤ù·Î³J¨÷",
+      "tile.plainomelette3block.name": "Plain Omelette Block",
+      "item.rottenomelette.name": "»GÄê·Î³J¨÷",
+      "item.chokatoomelette.name": "¥©§JªG·Î³J¨÷",
+      "item.spicyredpepperomelette2.name": "2/3 ¨¯»¶¬õ­J´Ô·Î³J¨÷",
+      "item.tomatoandpepperomelette3.name": "1/3 ¿»­X­J´Ô·Î³J¨÷",
+      "item.tigersquash.name": "ªê¯¾ªG",
+      "item.baconomelette.name": "âÀ¦×·Î³J¨÷",
+      "item.sausageomelette.name": "­»¸z·Î³J¨÷",
+      "item.hamandcheeseomelette.name": "¤õ»L°_¥q·Î³J¨÷",
+      "item.marshmallowomelette2.name": "2/3 ´Öªá¿}·Î³J¨÷",
+      "item.blackcurrantomelette2.name": "2/3 ¶Â¥[¨Ú¤l·Î³J¨÷",
+      "item.greenpepperomelette3.name": "1/3 «C´Ô·Î³J¨÷",
+      "item.tomatoandpepperomelette.name": "¿»­X­J´Ô·Î³J¨÷",
+      "item.marshmallowomelette.name": "´Öªá¿}·Î³J¨÷",
+      "item.sausageomelette2.name": "2/3 ­»¸z·Î³J¨÷",
+      "item.spinachfetaomelette3.name": "1/3 µÔµæ°_¥q·Î³J¨÷",
+      "item.pizzaomelette2.name": "2/3 ©ÜÂÄ·Î³J¨÷",
+      "item.uggamelonomelette3.name": "1/3 ªü¾¿¥Ê·Î³J¨÷",
+      "item.baconandbroccoliomelette.name": "âÀ¦×·¦µæ·Î³J¨÷",
+      "item.strawberryomelette2.name": "2/3 ¯ó²ù·Î³J¨÷",
+      "item.twirlyfruitomelette2.name": "2/3 ±ÛÂàªG·Î³J¨÷",
+      "item.hamandcheeseomelette2.name": "2/3 ¤õ»L°_¥q·Î³J¨÷",
+      "item.bbqsauceomelette2.name": "2/3 ¯N¦×¥Ä·Î³J¨÷",
+      "item.carrotandpeaomelette.name": "­JÅÚ½³½Ü¨§·Î³J¨÷",
+      "item.tomatoomelette3.name": "1/3 ¿»­X·Î³J¨÷",
+      "item.chokatoomelette2.name": "2/3 ¥©§JªG·Î³J¨÷",
+      "item.freshfruitsurpriseomelette3.name": "1/3 ·sÂA¤ôªGÅå³ß·Î³J¨÷",
+      "item.cheeseandonionomelette3.name": "1/3 °_¥q¬v½µ·Î³J¨÷",
+      "item.hamandcheeseomelette3.name": "1/3 ¤õ»L°_¥q·Î³J¨÷",
+      "item.pizzaomelette3.name": "1/3 ©ÜÂÄ·Î³J¨÷",
+      "item.littlefishyomelette2.name": "2/3 ¤p³½¨à·Î³J¨÷",
+      "item.spinachfetaomelette2.name": "2/3 µÔµæ°_¥q·Î³J¨÷",
+      "item.marshmallowomelette3.name": "1/3 ´Öªá¿}·Î³J¨÷",
+      "item.honeyblossom.name": "¸Á»eªá",
+      "item.carrotandpeaomelette2.name": "2/3 ­JÅÚ½³½Ü¨§·Î³J¨÷",
+      "item.mushroomomelette3.name": "1/3 Ä¨Û£·Î³J¨÷",
+      "item.sausageandpepperoniomelette.name": "­»¸z¤õ»L¤ù·Î³J¨÷",
+      "item.tangytigersquashomelette3.name": "1/3 ¼³­»ªê¯¾ªG·Î³J¨÷",
+      "item.veggiedelightomelette.name": "¯Àµæ·Î³J¨÷",
+      "item.pizzaomelette.name": "©ÜÂÄ·Î³J¨÷",
+      "item.tangytigersquashomelette2.name": "2/3 ¼³­»ªê¯¾ªG·Î³J¨÷",
+      "item.bbqsauceomelette3.name": "1/3 ¯N¦×¥Ä·Î³J¨÷",
+      "item.mushroomomelette2.name": "2/3 Ä¨Û£·Î³J¨÷",
+      "item.tomatoomelette2.name": "2/3 ¿»­X·Î³J¨÷",
+      "item.freshfruitsurpriseomelette2.name": "2/3 ·sÂA¤ôªGÅå³ß·Î³J¨÷",
+      "item.uggamelonomelette.name": "ªü¾¿¥Ê·Î³J¨÷",
+      "item.chokato.name": "¥©§JªG",
+      "item.veggiedelightomelette2.name": "2/3 ¯Àµæ·Î³J¨÷",
+      "item.plainomelette3.name": "1/3 ´¶³q·Î³J¨÷",
+      "item.littlefishyomelette3.name": "1/3 ¤p³½¨à·Î³J¨÷",
+      "item.carrotandpeaomelette3.name": "1/3 ­JÅÚ½³½Ü¨§·Î³J¨÷",
+      "item.strawberryomelette3.name": "1/3 ¯ó²ù·Î³J¨÷",
+      "item.plainomelette2.name": "2/3 ´¶³q·Î³J¨÷",
+      "item.hottyrannianpepper.name": "¤õ»¶¼É­h¤j¦a­J´Ô",
+      "item.baconandbroccoliomelette2.name": "2/3 âÀ¦×·¦µæ·Î³J¨÷",
+      "item.blackcurrantomelette3.name": "1/3 ¶Â¥[¨Ú¤l·Î³J¨÷",
+      "item.plainomelette.name": "´¶³q·Î³J¨÷",
+      "item.riceomelette3.name": "1/3 ¦Ì·Î³J¨÷",
+      "item.hottyrannianpepperomelette.name": "¤õ»¶¼É­h¤j¦a­J´Ô·Î³J¨÷",
+      "item.juppieomelette2.name": "2/3 ¥yªJªG·Î³J¨÷",
+      "item.blackcurrantomelette.name": "¶Â¥[¨Ú¤l·Î³J¨÷",
+      "item.cheeseomelette.name": "°_¥q·Î³J¨÷",
+      "itemGroup.tabgiantomelette": "¥¨«¬·Î³J¨÷",
+      "item.baconandbroccoliomelette3.name": "1/3 âÀ¦×·¦µæ·Î³J¨÷",
+      "item.greenpepperomelette2.name": "2/3 «C´Ô·Î³J¨÷",
+      "item.chocolateomelette3.name": "1/3 ¥©§J¤O·Î³J¨÷",
+      "item.cheeseandonionomelette2.name": "2/3 °_¥q¬v½µ·Î³J¨÷",
+      "item.bbqsauceomelette.name": "¯N¦×¥Ä·Î³J¨÷",
+      "item.cheeseandonionomelette.name": "°_¥q¬v½µ·Î³J¨÷",
+      "item.veggiedelightomelette3.name": "1/3 ¯Àµæ·Î³J¨÷",
+      "item.meatfeastomelette2.name": "2/3 Âø¦×·Î³J¨÷",
+      "item.chokatoomelette3.name": "1/3 ¥©§JªG·Î³J¨÷",
+      "item.spicyredpepperomelette3.name": "1/3 ¨¯»¶¬õ­J´Ô·Î³J¨÷",
+      "item.tangytigersquashomelette.name": "¼³­»ªê¯¾ªG·Î³J¨÷",
+      "item.twirlyfruit.name": "±ÛÂàªG",
+      "item.hottyrannianpepperomelette2.name": "2/3 ¤õ»¶¼É­h¤j¦a­J´Ô·Î³J¨÷",
+      "item.sausageandpepperoniomelette3.name": "1/3 ­»¸z¤õ»L¤ù·Î³J¨÷",
+      "tile.plainomelette2block.name": "Plain Omelette Block"
+    },
+    "zh_hk": {
+      "item.cheeseomelette3.name": "1/3 °_¥q·Î³J¨÷",
+      "item.honeyblossomomelette.name": "¸Á»eªá·Î³J¨÷",
+      "item.clayomelette2.name": "2/3 ÂH¤g·Î³J¨÷",
+      "item.uggamelonomelette2.name": "2/3 ªü¾¿¥Ê·Î³J¨÷",
+      "item.clayomelette.name": "ÂH¤g·Î³J¨÷",
+      "item.meatfeastomelette.name": "Âø¦×·Î³J¨÷",
+      "item.baconomelette2.name": "2/3 âÀ¦×·Î³J¨÷",
+      "item.honeyblossomomelette2.name": "2/3 ¸Á»eªá·Î³J¨÷",
+      "item.chocolateomelette.name": "¥©§J¤O·Î³J¨÷",
+      "item.tealjuppie.name": "¤ôÀn¥yªJªG",
+      "item.riceomelette.name": "¦Ì·Î³J¨÷",
+      "tile.plainomeletteblock.name": "Plain Omelette Block",
+      "item.tomatoandpepperomelette2.name": "2/3 ¿»­X­J´Ô·Î³J¨÷",
+      "item.spinachfetaomelette.name": "µÔµæ°_¥q·Î³J¨÷",
+      "item.chocolateomelette2.name": "2/3 ¥©§J¤O·Î³J¨÷",
+      "item.clayomelette3.name": "1/3 ÂH¤g·Î³J¨÷",
+      "item.cheeseomelette2.name": "2/3 °_¥q·Î³J¨÷",
+      "item.greenpepperomelette.name": "«C´Ô·Î³J¨÷",
+      "item.riceomelette2.name": "2/3 ¦Ì·Î³J¨÷",
+      "item.juppieomelette.name": "¥yªJªG·Î³J¨÷",
+      "item.honeyblossomomelette3.name": "1/3 ¸Á»eªá·Î³J¨÷",
+      "item.littlefishyomelette.name": "¤p³½¨à·Î³J¨÷",
+      "item.tomatoomelette.name": "¿»­X·Î³J¨÷",
+      "item.freshfruitsurpriseomelette.name": "·sÂA¤ôªGÅå³ß·Î³J¨÷",
+      "item.twirlyfruitomelette3.name": "1/3 ±ÛÂàªG·Î³J¨÷",
+      "item.juppieomelette3.name": "1/3 ¥yªJªG·Î³J¨÷",
+      "item.hottyrannianpepperomelette3.name": "1/3 ¤õ»¶¼É­h¤j¦a­J´Ô·Î³J¨÷",
+      "item.twirlyfruitomelette.name": "±ÛÂàªG·Î³J¨÷",
+      "item.strawberryomelette.name": "¯ó²ù·Î³J¨÷",
+      "item.spicyredpepperomelette.name": "¨¯»¶¬õ­J´Ô·Î³J¨÷",
+      "item.meatfeastomelette3.name": "1/3 Âø¦×·Î³J¨÷",
+      "item.sausageomelette3.name": "1/3 ­»¸z·Î³J¨÷",
+      "item.baconomelette3.name": "1/3 âÀ¦×·Î³J¨÷",
+      "item.mushroomomelette.name": "Ä¨Û£·Î³J¨÷",
+      "item.uggamelon.name": "ªü¾¿¥Ê",
+      "item.sausageandpepperoniomelette2.name": "2/3 ­»¸z¤õ»L¤ù·Î³J¨÷",
+      "tile.plainomelette3block.name": "Plain Omelette Block",
+      "item.rottenomelette.name": "»GÄê·Î³J¨÷",
+      "item.chokatoomelette.name": "¥©§JªG·Î³J¨÷",
+      "item.spicyredpepperomelette2.name": "2/3 ¨¯»¶¬õ­J´Ô·Î³J¨÷",
+      "item.tomatoandpepperomelette3.name": "1/3 ¿»­X­J´Ô·Î³J¨÷",
+      "item.tigersquash.name": "ªê¯¾ªG",
+      "item.baconomelette.name": "âÀ¦×·Î³J¨÷",
+      "item.sausageomelette.name": "­»¸z·Î³J¨÷",
+      "item.hamandcheeseomelette.name": "¤õ»L°_¥q·Î³J¨÷",
+      "item.marshmallowomelette2.name": "2/3 ´Öªá¿}·Î³J¨÷",
+      "item.blackcurrantomelette2.name": "2/3 ¶Â¥[¨Ú¤l·Î³J¨÷",
+      "item.greenpepperomelette3.name": "1/3 «C´Ô·Î³J¨÷",
+      "item.tomatoandpepperomelette.name": "¿»­X­J´Ô·Î³J¨÷",
+      "item.marshmallowomelette.name": "´Öªá¿}·Î³J¨÷",
+      "item.sausageomelette2.name": "2/3 ­»¸z·Î³J¨÷",
+      "item.spinachfetaomelette3.name": "1/3 µÔµæ°_¥q·Î³J¨÷",
+      "item.pizzaomelette2.name": "2/3 ©ÜÂÄ·Î³J¨÷",
+      "item.uggamelonomelette3.name": "1/3 ªü¾¿¥Ê·Î³J¨÷",
+      "item.baconandbroccoliomelette.name": "âÀ¦×·¦µæ·Î³J¨÷",
+      "item.strawberryomelette2.name": "2/3 ¯ó²ù·Î³J¨÷",
+      "item.twirlyfruitomelette2.name": "2/3 ±ÛÂàªG·Î³J¨÷",
+      "item.hamandcheeseomelette2.name": "2/3 ¤õ»L°_¥q·Î³J¨÷",
+      "item.bbqsauceomelette2.name": "2/3 ¯N¦×¥Ä·Î³J¨÷",
+      "item.carrotandpeaomelette.name": "­JÅÚ½³½Ü¨§·Î³J¨÷",
+      "item.tomatoomelette3.name": "1/3 ¿»­X·Î³J¨÷",
+      "item.chokatoomelette2.name": "2/3 ¥©§JªG·Î³J¨÷",
+      "item.freshfruitsurpriseomelette3.name": "1/3 ·sÂA¤ôªGÅå³ß·Î³J¨÷",
+      "item.cheeseandonionomelette3.name": "1/3 °_¥q¬v½µ·Î³J¨÷",
+      "item.hamandcheeseomelette3.name": "1/3 ¤õ»L°_¥q·Î³J¨÷",
+      "item.pizzaomelette3.name": "1/3 ©ÜÂÄ·Î³J¨÷",
+      "item.littlefishyomelette2.name": "2/3 ¤p³½¨à·Î³J¨÷",
+      "item.spinachfetaomelette2.name": "2/3 µÔµæ°_¥q·Î³J¨÷",
+      "item.marshmallowomelette3.name": "1/3 ´Öªá¿}·Î³J¨÷",
+      "item.honeyblossom.name": "¸Á»eªá",
+      "item.carrotandpeaomelette2.name": "2/3 ­JÅÚ½³½Ü¨§·Î³J¨÷",
+      "item.mushroomomelette3.name": "1/3 Ä¨Û£·Î³J¨÷",
+      "item.sausageandpepperoniomelette.name": "­»¸z¤õ»L¤ù·Î³J¨÷",
+      "item.tangytigersquashomelette3.name": "1/3 ¼³­»ªê¯¾ªG·Î³J¨÷",
+      "item.veggiedelightomelette.name": "¯Àµæ·Î³J¨÷",
+      "item.pizzaomelette.name": "©ÜÂÄ·Î³J¨÷",
+      "item.tangytigersquashomelette2.name": "2/3 ¼³­»ªê¯¾ªG·Î³J¨÷",
+      "item.bbqsauceomelette3.name": "1/3 ¯N¦×¥Ä·Î³J¨÷",
+      "item.mushroomomelette2.name": "2/3 Ä¨Û£·Î³J¨÷",
+      "item.tomatoomelette2.name": "2/3 ¿»­X·Î³J¨÷",
+      "item.freshfruitsurpriseomelette2.name": "2/3 ·sÂA¤ôªGÅå³ß·Î³J¨÷",
+      "item.uggamelonomelette.name": "ªü¾¿¥Ê·Î³J¨÷",
+      "item.chokato.name": "¥©§JªG",
+      "item.veggiedelightomelette2.name": "2/3 ¯Àµæ·Î³J¨÷",
+      "item.plainomelette3.name": "1/3 ´¶³q·Î³J¨÷",
+      "item.littlefishyomelette3.name": "1/3 ¤p³½¨à·Î³J¨÷",
+      "item.carrotandpeaomelette3.name": "1/3 ­JÅÚ½³½Ü¨§·Î³J¨÷",
+      "item.strawberryomelette3.name": "1/3 ¯ó²ù·Î³J¨÷",
+      "item.plainomelette2.name": "2/3 ´¶³q·Î³J¨÷",
+      "item.hottyrannianpepper.name": "¤õ»¶¼É­h¤j¦a­J´Ô",
+      "item.baconandbroccoliomelette2.name": "2/3 âÀ¦×·¦µæ·Î³J¨÷",
+      "item.blackcurrantomelette3.name": "1/3 ¶Â¥[¨Ú¤l·Î³J¨÷",
+      "item.plainomelette.name": "´¶³q·Î³J¨÷",
+      "item.riceomelette3.name": "1/3 ¦Ì·Î³J¨÷",
+      "item.hottyrannianpepperomelette.name": "¤õ»¶¼É­h¤j¦a­J´Ô·Î³J¨÷",
+      "item.juppieomelette2.name": "2/3 ¥yªJªG·Î³J¨÷",
+      "item.blackcurrantomelette.name": "¶Â¥[¨Ú¤l·Î³J¨÷",
+      "item.cheeseomelette.name": "°_¥q·Î³J¨÷",
+      "itemGroup.tabgiantomelette": "¥¨«¬·Î³J¨÷",
+      "item.baconandbroccoliomelette3.name": "1/3 âÀ¦×·¦µæ·Î³J¨÷",
+      "item.greenpepperomelette2.name": "2/3 «C´Ô·Î³J¨÷",
+      "item.chocolateomelette3.name": "1/3 ¥©§J¤O·Î³J¨÷",
+      "item.cheeseandonionomelette2.name": "2/3 °_¥q¬v½µ·Î³J¨÷",
+      "item.bbqsauceomelette.name": "¯N¦×¥Ä·Î³J¨÷",
+      "item.cheeseandonionomelette.name": "°_¥q¬v½µ·Î³J¨÷",
+      "item.veggiedelightomelette3.name": "1/3 ¯Àµæ·Î³J¨÷",
+      "item.meatfeastomelette2.name": "2/3 Âø¦×·Î³J¨÷",
+      "item.chokatoomelette3.name": "1/3 ¥©§JªG·Î³J¨÷",
+      "item.spicyredpepperomelette3.name": "1/3 ¨¯»¶¬õ­J´Ô·Î³J¨÷",
+      "item.tangytigersquashomelette.name": "¼³­»ªê¯¾ªG·Î³J¨÷",
+      "item.twirlyfruit.name": "±ÛÂàªG",
+      "item.hottyrannianpepperomelette2.name": "2/3 ¤õ»¶¼É­h¤j¦a­J´Ô·Î³J¨÷",
+      "item.sausageandpepperoniomelette3.name": "1/3 ­»¸z¤õ»L¤ù·Î³J¨÷",
+      "tile.plainomelette2block.name": "Plain Omelette Block"
+    },
+    "en_us": {
+      "item.cheeseomelette3.name": "1/3 Cheese Omelette",
+      "item.honeyblossomomelette.name": "Honey Blossom Omelette",
+      "item.uggamelonomelette2.name": "2/3 Ugga Melon Omelette",
+      "item.clayomelette2.name": "2/3 Clay Omelette",
+      "item.clayomelette.name": "Clay Omelette",
+      "item.meatfeastomelette.name": "Meat Feast Omelette",
+      "item.baconomelette2.name": "2/3 Bacon Omelette",
+      "item.honeyblossomomelette2.name": "2/3 Honey Blossom Omelette",
+      "item.chocolateomelette.name": "Chocolate Omelette",
+      "item.tealjuppie.name": "Teal Juppie",
+      "item.riceomelette.name": "Rice Omelette",
+      "tile.plainomeletteblock.name": "Plain Omelette Block",
+      "item.tomatoandpepperomelette2.name": "2/3 Tomato and Pepper Omelette",
+      "item.spinachfetaomelette.name": "Spinach Feta Omelette",
+      "item.chocolateomelette2.name": "2/3 Chocolate Omelette",
+      "item.clayomelette3.name": "1/3 Clay Omelette",
+      "item.cheeseomelette2.name": "2/3 Cheese Omelette",
+      "item.greenpepperomelette.name": "Green Pepper Omelette",
+      "item.riceomelette2.name": "2/3 Rice Omelette",
+      "item.juppieomelette.name": "Juppie Omelette",
+      "item.honeyblossomomelette3.name": "1/3 Honey Blossom Omelette",
+      "item.littlefishyomelette.name": "Little Fishy Omelette",
+      "item.tomatoomelette.name": "Tomato Omelette",
+      "item.freshfruitsurpriseomelette.name": "Fresh Fruit Surprise Omelette",
+      "item.twirlyfruitomelette3.name": "1/3 Twirly Fruit Omelette",
+      "item.juppieomelette3.name": "1/3 Juppie Omelette",
+      "item.hottyrannianpepperomelette3.name": "1/3 Hot Tyrannian Pepper Omelette",
+      "item.twirlyfruitomelette.name": "Twirly Fruit Omelette",
+      "item.strawberryomelette.name": "Strawberry Omelette",
+      "item.spicyredpepperomelette.name": "Spicy Red Pepper Omelette",
+      "item.meatfeastomelette3.name": "1/3 Meat Feast Omelette",
+      "item.sausageomelette3.name": "1/3 Sausage Omelette",
+      "item.baconomelette3.name": "1/3 Bacon Omelette",
+      "item.mushroomomelette.name": "Mushroom Omelette",
+      "item.uggamelon.name": "Ugga Melon",
+      "item.sausageandpepperoniomelette2.name": "2/3 Sausage and Pepperoni Omelette",
+      "tile.plainomelette3block.name": "1/3 Plain Omelette Block",
+      "item.rottenomelette.name": "Rotten Omelette",
+      "item.chokatoomelette.name": "Chokato Omelette",
+      "item.spicyredpepperomelette2.name": "2/3 Spicy Red Pepper Omelette",
+      "item.tomatoandpepperomelette3.name": "1/3 Tomato and Pepper Omelette",
+      "item.tigersquash.name": "Tigersquash",
+      "item.sausageomelette.name": "Sausage Omelette",
+      "item.baconomelette.name": "Bacon Omelette",
+      "item.hamandcheeseomelette.name": "Ham And Cheese Omelette",
+      "item.marshmallowomelette2.name": "2/3 Marshmallow Omelette",
+      "item.blackcurrantomelette2.name": "2/3 Black Currant Omelette",
+      "item.greenpepperomelette3.name": "1/3 Green Pepper Omelette",
+      "item.tomatoandpepperomelette.name": "Tomato And Pepper Omelette",
+      "item.sausageomelette2.name": "2/3 Sausage Omelette",
+      "item.marshmallowomelette.name": "Marshmallow Omelette",
+      "item.spinachfetaomelette3.name": "1/3 Spinach Feta Omelette",
+      "item.pizzaomelette2.name": "2/3 Pizza Omelette",
+      "item.uggamelonomelette3.name": "1/3 Ugga Melon Omelette",
+      "item.baconandbroccoliomelette.name": "Bacon and Broccoli Omelette",
+      "item.strawberryomelette2.name": "2/3 Strawberry Omelette",
+      "item.twirlyfruitomelette2.name": "2/3 Twirly Fruit Omelette",
+      "item.hamandcheeseomelette2.name": "2/3 Ham and Cheese Omelette",
+      "item.bbqsauceomelette2.name": "2/3 BBQ Sauce Omelette",
+      "item.carrotandpeaomelette.name": "Carrot and Pea Omelette",
+      "item.tomatoomelette3.name": "1/3 Tomato Omelette",
+      "item.chokatoomelette2.name": "2/3 Chokato Omelette",
+      "item.freshfruitsurpriseomelette3.name": "1/3 Fresh Fruit Surprise Omelette",
+      "item.cheeseandonionomelette3.name": "1/3 Cheese and Onion Omelette",
+      "item.hamandcheeseomelette3.name": "1/3 Ham and Cheese Omelette",
+      "item.pizzaomelette3.name": "1/3 Pizza Omelette",
+      "item.littlefishyomelette2.name": "2/3 Little Fishy Omelette",
+      "item.spinachfetaomelette2.name": "2/3 Spinach Feta Omelette",
+      "item.marshmallowomelette3.name": "1/3 Marshmallow Omelette",
+      "item.carrotandpeaomelette2.name": "2/3 Carrot and Pea Omelette",
+      "item.honeyblossom.name": "Honey Blossom",
+      "item.mushroomomelette3.name": "/3 Mushroom Omelette",
+      "item.sausageandpepperoniomelette.name": "Sausage And Pepperoni Omelette",
+      "item.tangytigersquashomelette3.name": "1/3 Tangy Tigersquash Omelette",
+      "item.veggiedelightomelette.name": "Veggie Delight Omelette",
+      "item.pizzaomelette.name": "Pizza Omelette",
+      "item.tangytigersquashomelette2.name": "2/3 Tangy Tigersquash Omelette",
+      "item.bbqsauceomelette3.name": "1/3 BBQ Sauce Omelette",
+      "item.mushroomomelette2.name": "2/3 Mushroom Omelette",
+      "item.tomatoomelette2.name": "2/3 Tomato Omelette",
+      "item.freshfruitsurpriseomelette2.name": "2/3 Fresh Fruit Surprise Omelette",
+      "item.uggamelonomelette.name": "Ugga Melon Omelette",
+      "item.chokato.name": "Chokato",
+      "item.veggiedelightomelette2.name": "2/3 Veggie Delight Omelette",
+      "item.plainomelette3.name": "1/3 Plain Omelette",
+      "item.littlefishyomelette3.name": "1/3 Little Fishy Omelette",
+      "item.carrotandpeaomelette3.name": "1/3 Carrot and Pea Omelette",
+      "item.strawberryomelette3.name": "1/3 Strawberry Omelette",
+      "item.plainomelette2.name": "2/3 Plain Omelette",
+      "item.hottyrannianpepper.name": "Hot Tyrannian Pepper",
+      "item.baconandbroccoliomelette2.name": "2/3 Bacon and Broccoli Omelette",
+      "item.blackcurrantomelette3.name": "1/3 Black Currant Omelette",
+      "item.plainomelette.name": "Plain Omelette",
+      "item.riceomelette3.name": "1/3 Rice Omelette",
+      "item.hottyrannianpepperomelette.name": "Hot Tyrannian Pepper Omelette",
+      "item.juppieomelette2.name": "2/3 Juppie Omelette",
+      "item.blackcurrantomelette.name": "Black Currant Omelette",
+      "item.cheeseomelette.name": "Cheese Omelette",
+      "itemGroup.tabgiantomelette": "Giant Omelette",
+      "item.baconandbroccoliomelette3.name": "1/3 Bacon and Broccoli Omelette",
+      "item.greenpepperomelette2.name": "2/3 Green Pepper Omelette",
+      "item.chocolateomelette3.name": "1/3 Chocolate Omelette",
+      "item.cheeseandonionomelette2.name": "2/3 Cheese and Onion Omelette",
+      "item.bbqsauceomelette.name": "BBQ Sauce Omelette",
+      "item.cheeseandonionomelette.name": "Cheese And Onion Omelette",
+      "item.veggiedelightomelette3.name": "1/3 Veggie Delight Omelette",
+      "item.meatfeastomelette2.name": "2/3 Meat Feast Omelette",
+      "item.chokatoomelette3.name": "1/3 Chokato Omelette",
+      "item.spicyredpepperomelette3.name": "1/3 Spicy Red Pepper Omelette",
+      "item.tangytigersquashomelette.name": "Tangy Tigersquash Omelette",
+      "item.twirlyfruit.name": "Twirly Fruit",
+      "item.hottyrannianpepperomelette2.name": "2/3 Hot Tyrannian Pepper Omelette",
+      "item.sausageandpepperoniomelette3.name": "1/3 Sausage and Pepperoni Omelette",
+      "tile.plainomelette2block.name": "2/3 Plain Omelette Block"
+    }
+  },
+  "workspaceSettings": {
+    "modid": "giantomelette",
+    "modName": "Giant Omelette",
+    "version": "1.0.0",
+    "author": "wong, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "1.12.2",
+    "modElementsPackage": "net.mcreator.giantomelette",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202000214217
+}

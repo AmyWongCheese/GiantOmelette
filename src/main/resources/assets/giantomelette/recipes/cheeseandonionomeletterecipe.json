@@ -1,0 +1,22 @@
+{
+  "group": "giantomelette",
+  "type": "forge:ore_shapeless",
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "listAllegg"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "foodCheese"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "cropOnion"
+    }
+  ],
+  "result": {
+    "item": "giantomelette:cheeseandonionomelette",
+    "count": 1
+  }
+}

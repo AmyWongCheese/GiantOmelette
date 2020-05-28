@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "normal": {
+      "model": "giantomelette:plainomelette2block"
+    },
+    "facing=north": {
+      "model": "giantomelette:plainomelette2block"
+    },
+    "facing=east": {
+      "model": "giantomelette:plainomelette2block",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "giantomelette:plainomelette2block",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "giantomelette:plainomelette2block",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "group": "giantomelette",
+  "type": "forge:ore_shapeless",
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "listAllegg"
+    }
+  ],
+  "result": {
+    "item": "giantomelette:plainomelette",
+    "count": 1
+  }
+}
