@@ -17,13 +17,13 @@ import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 
 import net.mcreator.giantomelette.procedure.ProcedureLittleFishyOmeletteFoodEaten;
 import net.mcreator.giantomelette.creativetab.TabGiantOmelette;
-import net.mcreator.giantomelette.ElementsGiantOmelette;
+import net.mcreator.giantomelette.ElementsGiantomeletteMod;
 
-@ElementsGiantOmelette.ModElement.Tag
-public class ItemLittleFishyOmelette extends ElementsGiantOmelette.ModElement {
+@ElementsGiantomeletteMod.ModElement.Tag
+public class ItemLittleFishyOmelette extends ElementsGiantomeletteMod.ModElement {
 	@GameRegistry.ObjectHolder("giantomelette:littlefishyomelette")
 	public static final Item block = null;
-	public ItemLittleFishyOmelette(ElementsGiantOmelette instance) {
+	public ItemLittleFishyOmelette(ElementsGiantomeletteMod instance) {
 		super(instance, 17);
 	}
 

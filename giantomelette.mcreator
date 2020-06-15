@@ -2698,15 +2698,15 @@
   "sound_elements": [],
   "language_map": {
     "zh_tw": {
-      "item.cheeseomelette3.name": "1/3 °_¥q·Î³J¨÷",
       "item.honeyblossomomelette.name": "¸Á»eªá·Î³J¨÷",
-      "item.clayomelette2.name": "2/3 ÂH¤g·Î³J¨÷",
+      "item.cheeseomelette3.name": "1/3 °_¥q·Î³J¨÷",
       "item.uggamelonomelette2.name": "2/3 ªü¾¿¥Ê·Î³J¨÷",
+      "item.clayomelette2.name": "2/3 ÂH¤g·Î³J¨÷",
       "item.clayomelette.name": "ÂH¤g·Î³J¨÷",
       "item.meatfeastomelette.name": "Âø¦×·Î³J¨÷",
       "item.baconomelette2.name": "2/3 âÀ¦×·Î³J¨÷",
-      "item.honeyblossomomelette2.name": "2/3 ¸Á»eªá·Î³J¨÷",
       "item.chocolateomelette.name": "¥©§J¤O·Î³J¨÷",
+      "item.honeyblossomomelette2.name": "2/3 ¸Á»eªá·Î³J¨÷",
       "item.tealjuppie.name": "¤ôÀn¥yªJªG",
       "item.riceomelette.name": "¦Ì·Î³J¨÷",
       "tile.plainomeletteblock.name": "Plain Omelette Block",
@@ -2814,15 +2814,15 @@
       "tile.plainomelette2block.name": "Plain Omelette Block"
     },
     "zh_hk": {
-      "item.cheeseomelette3.name": "1/3 °_¥q·Î³J¨÷",
       "item.honeyblossomomelette.name": "¸Á»eªá·Î³J¨÷",
-      "item.clayomelette2.name": "2/3 ÂH¤g·Î³J¨÷",
+      "item.cheeseomelette3.name": "1/3 °_¥q·Î³J¨÷",
       "item.uggamelonomelette2.name": "2/3 ªü¾¿¥Ê·Î³J¨÷",
+      "item.clayomelette2.name": "2/3 ÂH¤g·Î³J¨÷",
       "item.clayomelette.name": "ÂH¤g·Î³J¨÷",
       "item.meatfeastomelette.name": "Âø¦×·Î³J¨÷",
       "item.baconomelette2.name": "2/3 âÀ¦×·Î³J¨÷",
-      "item.honeyblossomomelette2.name": "2/3 ¸Á»eªá·Î³J¨÷",
       "item.chocolateomelette.name": "¥©§J¤O·Î³J¨÷",
+      "item.honeyblossomomelette2.name": "2/3 ¸Á»eªá·Î³J¨÷",
       "item.tealjuppie.name": "¤ôÀn¥yªJªG",
       "item.riceomelette.name": "¦Ì·Î³J¨÷",
       "tile.plainomeletteblock.name": "Plain Omelette Block",
@@ -2930,15 +2930,15 @@
       "tile.plainomelette2block.name": "Plain Omelette Block"
     },
     "en_us": {
-      "item.cheeseomelette3.name": "1/3 Cheese Omelette",
       "item.honeyblossomomelette.name": "Honey Blossom Omelette",
-      "item.uggamelonomelette2.name": "2/3 Ugga Melon Omelette",
+      "item.cheeseomelette3.name": "1/3 Cheese Omelette",
       "item.clayomelette2.name": "2/3 Clay Omelette",
+      "item.uggamelonomelette2.name": "2/3 Ugga Melon Omelette",
       "item.clayomelette.name": "Clay Omelette",
       "item.meatfeastomelette.name": "Meat Feast Omelette",
       "item.baconomelette2.name": "2/3 Bacon Omelette",
-      "item.honeyblossomomelette2.name": "2/3 Honey Blossom Omelette",
       "item.chocolateomelette.name": "Chocolate Omelette",
+      "item.honeyblossomomelette2.name": "2/3 Honey Blossom Omelette",
       "item.tealjuppie.name": "Teal Juppie",
       "item.riceomelette.name": "Rice Omelette",
       "tile.plainomeletteblock.name": "Plain Omelette Block",
@@ -3062,5 +3062,5 @@
     "modElementsPackage": "net.mcreator.giantomelette",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202000214217
+  "mcreatorVersion": 202000322116
 }

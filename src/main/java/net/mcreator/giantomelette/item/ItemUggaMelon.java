@@ -18,14 +18,14 @@ import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 
 import net.mcreator.giantomelette.procedure.ProcedureUggaMelonFoodEaten;
 import net.mcreator.giantomelette.creativetab.TabGiantOmelette;
-import net.mcreator.giantomelette.ElementsGiantOmelette;
+import net.mcreator.giantomelette.ElementsGiantomeletteMod;
 
-@ElementsGiantOmelette.ModElement.Tag
-public class ItemUggaMelon extends ElementsGiantOmelette.ModElement {
+@ElementsGiantomeletteMod.ModElement.Tag
+public class ItemUggaMelon extends ElementsGiantomeletteMod.ModElement {
 	@GameRegistry.ObjectHolder("giantomelette:uggamelon")
 	public static final Item block = null;
-	public ItemUggaMelon(ElementsGiantOmelette instance) {
-		super(instance, 224);
+	public ItemUggaMelon(ElementsGiantomeletteMod instance) {
+		super(instance, 110);
 	}
 
 	@Override

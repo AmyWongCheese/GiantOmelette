@@ -13,11 +13,11 @@ import net.minecraft.entity.item.EntityItem;
 import net.minecraft.entity.Entity;
 
 import net.mcreator.giantomelette.item.ItemTealJuppie;
-import net.mcreator.giantomelette.ElementsGiantOmelette;
+import net.mcreator.giantomelette.ElementsGiantomeletteMod;
 
-@ElementsGiantOmelette.ModElement.Tag
-public class ProcedureGetTealJuppie extends ElementsGiantOmelette.ModElement {
-	public ProcedureGetTealJuppie(ElementsGiantOmelette instance) {
+@ElementsGiantomeletteMod.ModElement.Tag
+public class ProcedureGetTealJuppie extends ElementsGiantomeletteMod.ModElement {
+	public ProcedureGetTealJuppie(ElementsGiantomeletteMod instance) {
 		super(instance, 238);
 	}
 

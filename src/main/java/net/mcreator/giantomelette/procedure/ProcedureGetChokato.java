@@ -13,11 +13,11 @@ import net.minecraft.entity.item.EntityItem;
 import net.minecraft.entity.Entity;
 
 import net.mcreator.giantomelette.item.ItemChokato;
-import net.mcreator.giantomelette.ElementsGiantOmelette;
+import net.mcreator.giantomelette.ElementsGiantomeletteMod;
 
-@ElementsGiantOmelette.ModElement.Tag
-public class ProcedureGetChokato extends ElementsGiantOmelette.ModElement {
-	public ProcedureGetChokato(ElementsGiantOmelette instance) {
+@ElementsGiantomeletteMod.ModElement.Tag
+public class ProcedureGetChokato extends ElementsGiantomeletteMod.ModElement {
+	public ProcedureGetChokato(ElementsGiantomeletteMod instance) {
 		super(instance, 235);
 	}
 

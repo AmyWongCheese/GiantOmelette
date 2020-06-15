@@ -7,11 +7,11 @@ import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.entity.Entity;
 
 import net.mcreator.giantomelette.item.ItemMushroomOmelette2;
-import net.mcreator.giantomelette.ElementsGiantOmelette;
+import net.mcreator.giantomelette.ElementsGiantomeletteMod;
 
-@ElementsGiantOmelette.ModElement.Tag
-public class ProcedureMushroomOmeletteFoodEaten extends ElementsGiantOmelette.ModElement {
-	public ProcedureMushroomOmeletteFoodEaten(ElementsGiantOmelette instance) {
+@ElementsGiantomeletteMod.ModElement.Tag
+public class ProcedureMushroomOmeletteFoodEaten extends ElementsGiantomeletteMod.ModElement {
+	public ProcedureMushroomOmeletteFoodEaten(ElementsGiantomeletteMod instance) {
 		super(instance, 183);
 	}
 

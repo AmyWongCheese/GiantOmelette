@@ -10,11 +10,11 @@ import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.entity.Entity;
 
 import net.mcreator.giantomelette.item.ItemSpicyRedPepperOmelette3;
-import net.mcreator.giantomelette.ElementsGiantOmelette;
+import net.mcreator.giantomelette.ElementsGiantomeletteMod;
 
-@ElementsGiantOmelette.ModElement.Tag
-public class ProcedureSpicyRedPepperOmelette2FoodEaten extends ElementsGiantOmelette.ModElement {
-	public ProcedureSpicyRedPepperOmelette2FoodEaten(ElementsGiantOmelette instance) {
+@ElementsGiantomeletteMod.ModElement.Tag
+public class ProcedureSpicyRedPepperOmelette2FoodEaten extends ElementsGiantomeletteMod.ModElement {
+	public ProcedureSpicyRedPepperOmelette2FoodEaten(ElementsGiantomeletteMod instance) {
 		super(instance, 199);
 	}
 

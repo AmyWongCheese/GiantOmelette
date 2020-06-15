@@ -14,13 +14,13 @@ import net.minecraft.item.EnumAction;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 
 import net.mcreator.giantomelette.creativetab.TabGiantOmelette;
-import net.mcreator.giantomelette.ElementsGiantOmelette;
+import net.mcreator.giantomelette.ElementsGiantomeletteMod;
 
-@ElementsGiantOmelette.ModElement.Tag
-public class ItemBaconOmelette3 extends ElementsGiantOmelette.ModElement {
+@ElementsGiantomeletteMod.ModElement.Tag
+public class ItemBaconOmelette3 extends ElementsGiantomeletteMod.ModElement {
 	@GameRegistry.ObjectHolder("giantomelette:baconomelette3")
 	public static final Item block = null;
-	public ItemBaconOmelette3(ElementsGiantOmelette instance) {
+	public ItemBaconOmelette3(ElementsGiantomeletteMod instance) {
 		super(instance, 71);
 	}
 

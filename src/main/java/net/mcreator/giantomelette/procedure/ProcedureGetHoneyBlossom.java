@@ -13,11 +13,11 @@ import net.minecraft.entity.item.EntityItem;
 import net.minecraft.entity.Entity;
 
 import net.mcreator.giantomelette.item.ItemHoneyBlossom;
-import net.mcreator.giantomelette.ElementsGiantOmelette;
+import net.mcreator.giantomelette.ElementsGiantomeletteMod;
 
-@ElementsGiantOmelette.ModElement.Tag
-public class ProcedureGetHoneyBlossom extends ElementsGiantOmelette.ModElement {
-	public ProcedureGetHoneyBlossom(ElementsGiantOmelette instance) {
+@ElementsGiantomeletteMod.ModElement.Tag
+public class ProcedureGetHoneyBlossom extends ElementsGiantomeletteMod.ModElement {
+	public ProcedureGetHoneyBlossom(ElementsGiantomeletteMod instance) {
 		super(instance, 236);
 	}
 

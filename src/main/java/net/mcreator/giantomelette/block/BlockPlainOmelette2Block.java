@@ -32,13 +32,13 @@ import net.minecraft.block.Block;
 
 import net.mcreator.giantomelette.procedure.ProcedurePlainOmelette2BlockOnBlockRightClicked;
 import net.mcreator.giantomelette.item.ItemPlainOmelette2;
-import net.mcreator.giantomelette.ElementsGiantOmelette;
+import net.mcreator.giantomelette.ElementsGiantomeletteMod;
 
-@ElementsGiantOmelette.ModElement.Tag
-public class BlockPlainOmelette2Block extends ElementsGiantOmelette.ModElement {
+@ElementsGiantomeletteMod.ModElement.Tag
+public class BlockPlainOmelette2Block extends ElementsGiantomeletteMod.ModElement {
 	@GameRegistry.ObjectHolder("giantomelette:plainomelette2block")
 	public static final Block block = null;
-	public BlockPlainOmelette2Block(ElementsGiantOmelette instance) {
+	public BlockPlainOmelette2Block(ElementsGiantomeletteMod instance) {
 		super(instance, 231);
 	}
 

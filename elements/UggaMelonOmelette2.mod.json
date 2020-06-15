@@ -1,11 +1,12 @@
 {
-  "_fv": 6,
+  "_fv": 8,
   "_type": "food",
   "definition": {
     "renderType": 0,
     "texture": "ommelon2",
     "customModelName": "Normal",
     "name": "2/3 Ugga Melon Omelette",
+    "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:GiantOmelette"
     },

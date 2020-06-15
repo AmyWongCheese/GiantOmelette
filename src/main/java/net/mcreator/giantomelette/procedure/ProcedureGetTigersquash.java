@@ -13,11 +13,11 @@ import net.minecraft.entity.item.EntityItem;
 import net.minecraft.entity.Entity;
 
 import net.mcreator.giantomelette.item.ItemTigersquash;
-import net.mcreator.giantomelette.ElementsGiantOmelette;
+import net.mcreator.giantomelette.ElementsGiantomeletteMod;
 
-@ElementsGiantOmelette.ModElement.Tag
-public class ProcedureGetTigersquash extends ElementsGiantOmelette.ModElement {
-	public ProcedureGetTigersquash(ElementsGiantOmelette instance) {
+@ElementsGiantomeletteMod.ModElement.Tag
+public class ProcedureGetTigersquash extends ElementsGiantomeletteMod.ModElement {
+	public ProcedureGetTigersquash(ElementsGiantomeletteMod instance) {
 		super(instance, 239);
 	}
 

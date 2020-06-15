@@ -18,14 +18,14 @@ import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 
 import net.mcreator.giantomelette.procedure.ProcedureHotTyrannianPepperFoodEaten;
 import net.mcreator.giantomelette.creativetab.TabGiantOmelette;
-import net.mcreator.giantomelette.ElementsGiantOmelette;
+import net.mcreator.giantomelette.ElementsGiantomeletteMod;
 
-@ElementsGiantOmelette.ModElement.Tag
-public class ItemHotTyrannianPepper extends ElementsGiantOmelette.ModElement {
+@ElementsGiantomeletteMod.ModElement.Tag
+public class ItemHotTyrannianPepper extends ElementsGiantomeletteMod.ModElement {
 	@GameRegistry.ObjectHolder("giantomelette:hottyrannianpepper")
 	public static final Item block = null;
-	public ItemHotTyrannianPepper(ElementsGiantOmelette instance) {
-		super(instance, 114);
+	public ItemHotTyrannianPepper(ElementsGiantomeletteMod instance) {
+		super(instance, 106);
 	}
 
 	@Override

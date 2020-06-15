@@ -6,7 +6,7 @@ import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.client.model.obj.OBJLoader;
 
-public class ClientProxyGiantOmelette implements IProxyGiantOmelette {
+public class ClientProxyGiantomeletteMod implements IProxyGiantomeletteMod {
 	@Override
 	public void init(FMLInitializationEvent event) {
 	}

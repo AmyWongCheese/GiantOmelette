@@ -45,7 +45,7 @@ import java.util.ArrayList;
 import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Retention;
 
-public class ElementsGiantOmelette implements IFuelHandler, IWorldGenerator {
+public class ElementsGiantomeletteMod implements IFuelHandler, IWorldGenerator {
 	public final List<ModElement> elements = new ArrayList<>();
 	public final List<Supplier<Block>> blocks = new ArrayList<>();
 	public final List<Supplier<Item>> items = new ArrayList<>();
@@ -53,23 +53,23 @@ public class ElementsGiantOmelette implements IFuelHandler, IWorldGenerator {
 	public final List<Supplier<EntityEntry>> entities = new ArrayList<>();
 	public final List<Supplier<Potion>> potions = new ArrayList<>();
 	public static Map<ResourceLocation, net.minecraft.util.SoundEvent> sounds = new HashMap<>();
-	public ElementsGiantOmelette() {
+	public ElementsGiantomeletteMod() {
 	}
 
 	public void preInit(FMLPreInitializationEvent event) {
 		try {
 			for (ASMDataTable.ASMData asmData : event.getAsmData().getAll(ModElement.Tag.class.getName())) {
 				Class<?> clazz = Class.forName(asmData.getClassName());
-				if (clazz.getSuperclass() == ElementsGiantOmelette.ModElement.class)
-					elements.add((ElementsGiantOmelette.ModElement) clazz.getConstructor(this.getClass()).newInstance(this));
+				if (clazz.getSuperclass() == ElementsGiantomeletteMod.ModElement.class)
+					elements.add((ElementsGiantomeletteMod.ModElement) clazz.getConstructor(this.getClass()).newInstance(this));
 			}
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
 		Collections.sort(elements);
-		elements.forEach(ElementsGiantOmelette.ModElement::initElements);
-		this.addNetworkMessage(GiantOmeletteVariables.WorldSavedDataSyncMessageHandler.class, GiantOmeletteVariables.WorldSavedDataSyncMessage.class,
-				Side.SERVER, Side.CLIENT);
+		elements.forEach(ElementsGiantomeletteMod.ModElement::initElements);
+		this.addNetworkMessage(GiantomeletteModVariables.WorldSavedDataSyncMessageHandler.class,
+				GiantomeletteModVariables.WorldSavedDataSyncMessage.class, Side.SERVER, Side.CLIENT);
 	}
 
 	public void registerSounds(RegistryEvent.Register<net.minecraft.util.SoundEvent> event) {
@@ -95,12 +95,13 @@ public class ElementsGiantOmelette implements IFuelHandler, IWorldGenerator {
 	@SubscribeEvent
 	public void onPlayerLoggedIn(net.minecraftforge.fml.common.gameevent.PlayerEvent.PlayerLoggedInEvent event) {
 		if (!event.player.world.isRemote) {
-			WorldSavedData mapdata = GiantOmeletteVariables.MapVariables.get(event.player.world);
-			WorldSavedData worlddata = GiantOmeletteVariables.WorldVariables.get(event.player.world);
+			WorldSavedData mapdata = GiantomeletteModVariables.MapVariables.get(event.player.world);
+			WorldSavedData worlddata = GiantomeletteModVariables.WorldVariables.get(event.player.world);
 			if (mapdata != null)
-				GiantOmelette.PACKET_HANDLER.sendTo(new GiantOmeletteVariables.WorldSavedDataSyncMessage(0, mapdata), (EntityPlayerMP) event.player);
+				GiantomeletteMod.PACKET_HANDLER.sendTo(new GiantomeletteModVariables.WorldSavedDataSyncMessage(0, mapdata),
+						(EntityPlayerMP) event.player);
 			if (worlddata != null)
-				GiantOmelette.PACKET_HANDLER.sendTo(new GiantOmeletteVariables.WorldSavedDataSyncMessage(1, worlddata),
+				GiantomeletteMod.PACKET_HANDLER.sendTo(new GiantomeletteModVariables.WorldSavedDataSyncMessage(1, worlddata),
 						(EntityPlayerMP) event.player);
 		}
 	}
@@ -108,9 +109,9 @@ public class ElementsGiantOmelette implements IFuelHandler, IWorldGenerator {
 	@SubscribeEvent
 	public void onPlayerChangedDimension(net.minecraftforge.fml.common.gameevent.PlayerEvent.PlayerChangedDimensionEvent event) {
 		if (!event.player.world.isRemote) {
-			WorldSavedData worlddata = GiantOmeletteVariables.WorldVariables.get(event.player.world);
+			WorldSavedData worlddata = GiantomeletteModVariables.WorldVariables.get(event.player.world);
 			if (worlddata != null)
-				GiantOmelette.PACKET_HANDLER.sendTo(new GiantOmeletteVariables.WorldSavedDataSyncMessage(1, worlddata),
+				GiantomeletteMod.PACKET_HANDLER.sendTo(new GiantomeletteModVariables.WorldSavedDataSyncMessage(1, worlddata),
 						(EntityPlayerMP) event.player);
 		}
 	}
@@ -118,7 +119,7 @@ public class ElementsGiantOmelette implements IFuelHandler, IWorldGenerator {
 	public <T extends IMessage, V extends IMessage> void addNetworkMessage(Class<? extends IMessageHandler<T, V>> handler, Class<T> messageClass,
 			Side... sides) {
 		for (Side side : sides)
-			GiantOmelette.PACKET_HANDLER.registerMessage(handler, messageClass, messageID, side);
+			GiantomeletteMod.PACKET_HANDLER.registerMessage(handler, messageClass, messageID, side);
 		messageID++;
 	}
 	public static class GuiHandler implements IGuiHandler {
@@ -159,9 +160,9 @@ public class ElementsGiantOmelette implements IFuelHandler, IWorldGenerator {
 		@Retention(RetentionPolicy.RUNTIME)
 		public @interface Tag {
 		}
-		protected final ElementsGiantOmelette elements;
+		protected final ElementsGiantomeletteMod elements;
 		protected final int sortid;
-		public ModElement(ElementsGiantOmelette elements, int sortid) {
+		public ModElement(ElementsGiantomeletteMod elements, int sortid) {
 			this.elements = elements;
 			this.sortid = sortid;
 		}

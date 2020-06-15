@@ -7,11 +7,11 @@ import net.minecraft.init.MobEffects;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.entity.Entity;
 
-import net.mcreator.giantomelette.ElementsGiantOmelette;
+import net.mcreator.giantomelette.ElementsGiantomeletteMod;
 
-@ElementsGiantOmelette.ModElement.Tag
-public class ProcedurePlainOmelette3BlockOnBlockRightClicked extends ElementsGiantOmelette.ModElement {
-	public ProcedurePlainOmelette3BlockOnBlockRightClicked(ElementsGiantOmelette instance) {
+@ElementsGiantomeletteMod.ModElement.Tag
+public class ProcedurePlainOmelette3BlockOnBlockRightClicked extends ElementsGiantomeletteMod.ModElement {
+	public ProcedurePlainOmelette3BlockOnBlockRightClicked(ElementsGiantomeletteMod instance) {
 		super(instance, 120);
 	}
 

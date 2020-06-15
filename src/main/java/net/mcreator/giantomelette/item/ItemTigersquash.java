@@ -15,14 +15,14 @@ import net.minecraft.item.EnumAction;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 
 import net.mcreator.giantomelette.creativetab.TabGiantOmelette;
-import net.mcreator.giantomelette.ElementsGiantOmelette;
+import net.mcreator.giantomelette.ElementsGiantomeletteMod;
 
-@ElementsGiantOmelette.ModElement.Tag
-public class ItemTigersquash extends ElementsGiantOmelette.ModElement {
+@ElementsGiantomeletteMod.ModElement.Tag
+public class ItemTigersquash extends ElementsGiantomeletteMod.ModElement {
 	@GameRegistry.ObjectHolder("giantomelette:tigersquash")
 	public static final Item block = null;
-	public ItemTigersquash(ElementsGiantOmelette instance) {
-		super(instance, 198);
+	public ItemTigersquash(ElementsGiantomeletteMod instance) {
+		super(instance, 108);
 	}
 
 	@Override

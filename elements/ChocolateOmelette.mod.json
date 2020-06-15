@@ -1,11 +1,12 @@
 {
-  "_fv": 6,
+  "_fv": 8,
   "_type": "food",
   "definition": {
     "renderType": 0,
     "texture": "omchocolate",
     "customModelName": "Normal",
     "name": "Chocolate Omelette",
+    "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:GiantOmelette"
     },

@@ -15,14 +15,14 @@ import net.minecraft.item.EnumAction;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 
 import net.mcreator.giantomelette.creativetab.TabGiantOmelette;
-import net.mcreator.giantomelette.ElementsGiantOmelette;
+import net.mcreator.giantomelette.ElementsGiantomeletteMod;
 
-@ElementsGiantOmelette.ModElement.Tag
-public class ItemTwirlyFruit extends ElementsGiantOmelette.ModElement {
+@ElementsGiantomeletteMod.ModElement.Tag
+public class ItemTwirlyFruit extends ElementsGiantomeletteMod.ModElement {
 	@GameRegistry.ObjectHolder("giantomelette:twirlyfruit")
 	public static final Item block = null;
-	public ItemTwirlyFruit(ElementsGiantOmelette instance) {
-		super(instance, 218);
+	public ItemTwirlyFruit(ElementsGiantomeletteMod instance) {
+		super(instance, 109);
 	}
 
 	@Override

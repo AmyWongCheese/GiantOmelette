@@ -13,11 +13,11 @@ import net.minecraft.entity.item.EntityItem;
 import net.minecraft.entity.Entity;
 
 import net.mcreator.giantomelette.item.ItemTwirlyFruit;
-import net.mcreator.giantomelette.ElementsGiantOmelette;
+import net.mcreator.giantomelette.ElementsGiantomeletteMod;
 
-@ElementsGiantOmelette.ModElement.Tag
-public class ProcedureGetTwirlyFruit extends ElementsGiantOmelette.ModElement {
-	public ProcedureGetTwirlyFruit(ElementsGiantOmelette instance) {
+@ElementsGiantomeletteMod.ModElement.Tag
+public class ProcedureGetTwirlyFruit extends ElementsGiantomeletteMod.ModElement {
+	public ProcedureGetTwirlyFruit(ElementsGiantomeletteMod instance) {
 		super(instance, 240);
 	}
 

@@ -8,11 +8,11 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.creativetab.CreativeTabs;
 
 import net.mcreator.giantomelette.item.ItemCarrotAndPeaOmelette;
-import net.mcreator.giantomelette.ElementsGiantOmelette;
+import net.mcreator.giantomelette.ElementsGiantomeletteMod;
 
-@ElementsGiantOmelette.ModElement.Tag
-public class TabGiantOmelette extends ElementsGiantOmelette.ModElement {
-	public TabGiantOmelette(ElementsGiantOmelette instance) {
+@ElementsGiantomeletteMod.ModElement.Tag
+public class TabGiantOmelette extends ElementsGiantomeletteMod.ModElement {
+	public TabGiantOmelette(ElementsGiantomeletteMod instance) {
 		super(instance, 111);
 	}
 

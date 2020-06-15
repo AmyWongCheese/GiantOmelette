@@ -10,13 +10,13 @@ import net.minecraft.block.state.IBlockState;
 import net.minecraft.block.properties.IProperty;
 
 import net.mcreator.giantomelette.block.BlockPlainOmelette3Block;
-import net.mcreator.giantomelette.ElementsGiantOmelette;
+import net.mcreator.giantomelette.ElementsGiantomeletteMod;
 
 import java.util.Map;
 
-@ElementsGiantOmelette.ModElement.Tag
-public class ProcedurePlainOmelette2BlockOnBlockRightClicked extends ElementsGiantOmelette.ModElement {
-	public ProcedurePlainOmelette2BlockOnBlockRightClicked(ElementsGiantOmelette instance) {
+@ElementsGiantomeletteMod.ModElement.Tag
+public class ProcedurePlainOmelette2BlockOnBlockRightClicked extends ElementsGiantomeletteMod.ModElement {
+	public ProcedurePlainOmelette2BlockOnBlockRightClicked(ElementsGiantomeletteMod instance) {
 		super(instance, 234);
 	}
 

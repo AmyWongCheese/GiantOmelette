@@ -5,11 +5,11 @@ import net.minecraft.init.MobEffects;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.entity.Entity;
 
-import net.mcreator.giantomelette.ElementsGiantOmelette;
+import net.mcreator.giantomelette.ElementsGiantomeletteMod;
 
-@ElementsGiantOmelette.ModElement.Tag
-public class ProcedureRottenOmeletteFoodEaten extends ElementsGiantOmelette.ModElement {
-	public ProcedureRottenOmeletteFoodEaten(ElementsGiantOmelette instance) {
+@ElementsGiantomeletteMod.ModElement.Tag
+public class ProcedureRottenOmeletteFoodEaten extends ElementsGiantomeletteMod.ModElement {
+	public ProcedureRottenOmeletteFoodEaten(ElementsGiantomeletteMod instance) {
 		super(instance, 129);
 	}
 
